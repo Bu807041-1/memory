@@ -1,34 +1,24 @@
 <style>
-  .memory_box{background-color:orange;
-    width: 200px;
-    height: 200px>
-
-
-  }
+.memory_box{
+  background-color:orange; width: 200px; height: 200px;
+}
 </style>
-
-<h1> Memory Game</h1>
-
-
 
 <table>
   <tr>
     <td>
+      <div class="memory_box" style=""></div>
+    </td>
+    <td>
       <div class="memory_box"></div>
     </td>
-
     <td>
       <div class="memory_box"></div>
-  </td>
-
+    </td>
     <td>
       <div class="memory_box"></div>
-      </td>
-      
-      <td>  <div class="memory_box"></div></td>
+    </td>
   </tr>
-
-
   <tr>
     <td>
       <div class="memory_box"></div>
@@ -44,3 +34,30 @@
     </td>
   </tr>
 </table>
+
+<!--
+Javascrit section
+-->
+
+<script>
+/*
+Block comment
+*/
+
+howdy = "hello world"
+alert(howdy);
+
+var card_letters = ["a", "b", "c", "d", "a", "b", "c", "d"];
+
+var visible_letters = [];
+
+var selected_boxes = [];
+
+var card_obj = {
+  card_letters: ["a", "b", "c", "d", "a", "b", "c", "d"],
+  visible_letters: [],
+  selected_boxes: [],
+};
+
+console.log(card.obj)
+</script>
